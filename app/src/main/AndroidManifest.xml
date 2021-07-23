@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alphab3t">
+
+    <application
+        android:allowBackup="true"
+        android:label="Alphabet"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".difficultyActivity" />
+        <activity android:name=".highScoresActivity" />
+        <activity android:name=".themesActivity" />
+        <activity android:name=".tutorialActivity" />
+        <activity android:name=".endActivity" />
+        <activity android:name=".gameActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Alphab3t</string>
+
+    <string-array name="Themes">
+        <item>Animals</item>
+        <item>Fruits</item>
+        <item>Locations</item>
+        <item>Random</item>
+    </string-array>
+
+    <string-array name="difficulty">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+</resources>

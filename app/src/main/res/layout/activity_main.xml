@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_howToPlay3"
+        android:layout_width="160sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="112dp"
+        android:onClick="goToThemes"
+        android:text="Themes"
+        android:background="@drawable/rounded_button"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_howToPlay2" />
+
+    <Button
+        android:id="@+id/btn_howToPlay"
+        android:layout_width="160sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="112dp"
+        android:onClick="tutorialActivity"
+        android:text="Tutorial"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Play" />
+
+    <Button
+        android:id="@+id/btn_howToPlay2"
+        android:layout_width="160sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="112dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="112dp"
+        android:onClick="goToDifficulty"
+        android:text="Difficulty"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_howToPlay" />
+
+    <Button
+        android:id="@+id/btn_Play"
+        android:layout_width="160sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="113dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="113dp"
+        android:text="Play"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="407dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="2dp"
+        android:gravity="center"
+        android:text="A l p h a b e t"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

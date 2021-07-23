@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gameactivity_1"
+    tools:context=".endActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="327dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="44dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="152dp"
+        android:layout_marginEnd="152dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="PlayAgain"
+        android:text="Play Again"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="155dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="goToHighScores"
+        android:text="Highscores"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="154dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="goHome"
+        android:text="Home"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="299dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="52dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
