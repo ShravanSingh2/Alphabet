@@ -36,6 +36,12 @@ public class gameActivity extends AppCompatActivity {
     int time,incorrectTries,lengthWord,modifierBound;
     CountDownTimer Timer;
 
+    final Handler handler = new Handler();
+    Runnable counter = null;
+
+    Boolean Myboolean = true;
+
+
 
 
     @Override
@@ -77,6 +83,7 @@ public class gameActivity extends AppCompatActivity {
     public void onBackPressed() {
         if(Timer!=null) {
             Timer.cancel();
+            Myboolean = false;
         }
         Intent intent = new Intent(this,MainActivity.class);
         intent.putExtra("theme",getIntent().getStringExtra("theme"));
@@ -102,9 +109,8 @@ public class gameActivity extends AppCompatActivity {
         final TextView timerField = findViewById(R.id.textView5);
         final Animation blink = AnimationUtils.loadAnimation(this,R.anim.blink);
         final Button button = findViewById(R.id.button);
-        final Handler handler = new Handler();
         final java.util.concurrent.atomic.AtomicInteger n = new AtomicInteger(3);
-        final Runnable counter = new Runnable() {
+        counter = new Runnable() {
             @Override
             public void run() {
 
@@ -152,6 +158,7 @@ public class gameActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             public void onTick(long millisUntilFinished) {
                 timerField.setText("Time remaining: " + millisUntilFinished / 1000);
+                if(!Myboolean ) { cancel(); }
             }
 
             @SuppressLint("SetTextI18n")
