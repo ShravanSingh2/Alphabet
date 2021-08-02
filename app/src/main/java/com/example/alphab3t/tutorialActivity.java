@@ -19,7 +19,7 @@ public class tutorialActivity extends AppCompatActivity {
                 "\n" +
                 "1. The aim of the game is to deciper words where each character of the word has been shifted up in the alphabet.\n" +
                 "\n" +
-                "2. The modifier number states how many letters above the original word is.\n" +
+                "2. This modifier number states how many letters above the original word is.\n" +
                 "\n" +
                 "3. If you reach the end of the alphabet. You just have to loop back to the front\n" +
                 "\n" +
