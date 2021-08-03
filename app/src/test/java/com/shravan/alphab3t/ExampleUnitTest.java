@@ -1,4 +1,4 @@
-package com.example.alphab3t;
+package com.shravan.alphab3t;
 
 import org.junit.Test;
 

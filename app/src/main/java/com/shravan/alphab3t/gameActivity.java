@@ -1,4 +1,4 @@
-package com.example.alphab3t;
+package com.shravan.alphab3t;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -18,6 +18,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.shravan.alphab3t.R;
 
 import java.io.Serializable;
 import java.util.ArrayList;

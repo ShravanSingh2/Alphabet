@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/difficulty_background"
-    tools:context=".difficultyActivity">
+    tools:context="com.shravan.alphab3t.difficultyActivity">
 
     <Spinner
         android:id="@+id/spinner2"

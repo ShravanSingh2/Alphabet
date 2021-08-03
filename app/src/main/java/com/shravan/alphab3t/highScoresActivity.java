@@ -1,4 +1,4 @@
-package com.example.alphab3t;
+package com.shravan.alphab3t;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -8,13 +8,14 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.shravan.alphab3t.R;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 
 public class highScoresActivity extends AppCompatActivity {
 

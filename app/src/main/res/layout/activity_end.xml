@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gameactivity_1"
-    tools:context=".endActivity">
+    tools:context="com.shravan.alphab3t.endActivity">
 
     <TextView
         android:id="@+id/textView6"

@@ -1,23 +1,15 @@
-package com.example.alphab3t;
+package com.shravan.alphab3t;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.PixelFormat;
 import android.media.MediaPlayer;
-import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.Toast;
 
-import java.io.Console;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import com.shravan.alphab3t.R;
 
 public class MainActivity extends AppCompatActivity {
 

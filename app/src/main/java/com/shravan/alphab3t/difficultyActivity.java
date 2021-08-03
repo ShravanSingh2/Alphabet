@@ -1,4 +1,4 @@
-package com.example.alphab3t;
+package com.shravan.alphab3t;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.shravan.alphab3t.R;
 
 public class difficultyActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 

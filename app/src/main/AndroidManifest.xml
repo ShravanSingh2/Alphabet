@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.alphab3t">
+    package="com.shravan.alphab3t">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".difficultyActivity" />
-        <activity android:name=".highScoresActivity" />
-        <activity android:name=".themesActivity" />
-        <activity android:name=".tutorialActivity" />
-        <activity android:name=".endActivity" />
-        <activity android:name=".gameActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.shravan.alphab3t.difficultyActivity" />
+        <activity android:name="com.shravan.alphab3t.highScoresActivity" />
+        <activity android:name="com.shravan.alphab3t.themesActivity" />
+        <activity android:name="com.shravan.alphab3t.tutorialActivity" />
+        <activity android:name="com.shravan.alphab3t.endActivity" />
+        <activity android:name="com.shravan.alphab3t.gameActivity" />
+        <activity android:name="com.shravan.alphab3t.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

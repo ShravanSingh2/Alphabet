@@ -1,9 +1,8 @@
-package com.example.alphab3t;
+package com.shravan.alphab3t;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -11,7 +10,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.shravan.alphab3t.R;
 
 public class themesActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 

@@ -1,4 +1,4 @@
-package com.example.alphab3t;
+package com.shravan.alphab3t;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.TextView;
+
+import com.shravan.alphab3t.R;
 
 public class tutorialActivity extends AppCompatActivity {
 

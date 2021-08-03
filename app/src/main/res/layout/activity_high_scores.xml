@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/highscores_background"
-    tools:context=".highScoresActivity">
+    tools:context="com.shravan.alphab3t.highScoresActivity">
 
     <TextView
         android:id="@+id/textView9"
